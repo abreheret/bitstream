@@ -2,7 +2,6 @@ clone_folder: c:\projects\bitstream
 
 install:
     - cmd: set PATH=%PATH%;C:\Miniconda36-x64;C:\Miniconda36-x64\Scripts
-    - cmd: set OPENCV_DIR=C:\tools\opencv\build
     - cmd: cd c:\projects\bitstream
         
 build_script:
